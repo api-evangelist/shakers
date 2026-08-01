@@ -1,8 +1,27 @@
 aid: shakers
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/shakers.png
 name: Shakers
-description: 'Shakers is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Marketplace. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Shakers is a Spanish technology platform — "the house of freeworking" — that connects
+  enterprises with vetted, top-tier freelance developers and digital professionals. Its
+  AI-powered products include Shakers AI (a copilot for project scoping and talent matching),
+  Talent Insight (profile and skills analysis), Shakers Verified (technical verification of
+  freelance profiles), and AI Interviews (automated candidate assessment). The platform serves
+  450+ enterprise clients including Telefónica, EY, BBVA, Microsoft, and HP across a community of
+  10,000+ tech freelancers. Backed by Partech, Shakers was added to the API Evangelist network as
+  a portfolio-company profile; as of this enrichment pass it publishes a consumer web platform but
+  no public developer or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/shakers/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Marketplace
+- Freelance
+- Talent
+- Recruiting
+- Future of Work
+- Artificial Intelligence
+- Staffing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.shakersworks.com/
+- type: Blog
+  url: https://blog.shakersworks.com/
+- type: Support
+  url: https://know.shakersworks.com/es
+- type: SignUp
+  url: https://app.shakersworks.com/register/talent
+- type: TermsOfService
+  url: https://www.shakersworks.com/es-es/condiciones-generales
+- type: PrivacyPolicy
+  url: https://www.shakersworks.com/politica-de-privacidad
+- type: DomainSecurity
+  url: security/shakers-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
